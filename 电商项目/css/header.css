@@ -1,0 +1,88 @@
+header{
+    width:100%;
+    height: 70px;
+    background-color: #111;
+    overflow: hidden;
+}
+header .header_home{
+    float: left;
+}
+header .header_home img{
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin: 5px 100px;
+}
+header ul{
+    float: right;
+    margin-top: 25px;
+    margin-right:150px;
+    list-style: none;
+}
+header ul li{
+    float: left;
+    width: 120px;
+    padding: 0 10px;
+    position: relative;
+}
+header ul li a{
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+}
+
+header ul li a:hover{
+    color: #bcbcbc;
+}
+
+header ul li span img{
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+header ul li p{
+    float: left;
+    color: #fff;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 2px 4px;
+}
+header ul li .cart_num{
+    background-color: #FF8184;
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+header ul li .load{
+    color: #fff;
+    font-size: 18px;
+    height: 24px;
+    line-height: 24px;
+    display: block;
+}
+header ul li .load i{
+    color: #fff;
+    position: absolute;
+    left: 70px;
+    top:0;
+    font-size: 16px;
+    width: 50px;
+}
+header ul li .load s{
+    position: absolute;
+    left: 90px;
+    top:20px;
+    font-size: 14px;
+    width: 50px;
+    color: #ff8e89;
+    cursor: pointer;
+}
+header ul li .load s:hover{
+    color: #ededed;
+    text-decoration: underline;
+}
+
+

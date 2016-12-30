@@ -1,0 +1,73 @@
+footer{
+    width: 100%;
+    min-height: 300px;
+    border-top: 3px solid #ff857e;
+}
+footer .info{
+    width:100%;
+    overflow: hidden;
+    background: #111;
+}
+footer .info_inner{
+    width:1280px;
+    min-height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+}
+footer .info ul{
+    width: 300px;
+    height: 120px;
+    list-style: none;
+    float: left;
+    margin: 10px;
+}
+footer .info ul h3{
+    color: rgba( 255,129,132, 1 );
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    font-weight: 400;
+}
+footer .info ul li{
+    margin-top: 10px;
+}
+footer .info ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+footer .info ul li .followUs_wx{
+    width: 64px;
+    height: 64px;
+    transform: scale(0.6,0.6);
+    background: url("../img/wx.png");
+    float: left;
+}
+footer .info ul li .followUs_wb{
+    width: 64px;
+    height: 64px;
+    transform: scale(0.6,0.6);
+    background: url("../img/wb.png");
+    float: left;
+}
+footer .info ul li .followUs_fb{
+    width: 64px;
+    height: 64px;
+    transform: scale(0.6,0.6);
+    background: url("../img/facebook.png");
+    float: left;
+}
+footer .info ul li a:hover{
+    transform: scale(0.8,0.8);
+    font-size: 16px;
+    font-weight: 300;
+}
+footer .footer_pic{
+    width:1280px;
+    height: 200px;
+    float: left;
+}
+footer .footer_pic img{
+    width: 400px;
+    height: 100px;
+    padding: 20px 440px;
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    font-size: 12px;
+    color: #222;
+    font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+}
+#mainBody{
+    width:100%;
+    min-height: 600px;
+    background: #121212;
+}
+#mainBody .mainBG{
+    display: block;
+    width: 1600px;
+    height: 200px;
+    margin: 0 auto;
+}
+#mainBody .login{
+    float: left;
+    overflow: hidden;
+    width: 400px;
+    padding: 30px;
+    margin-left: 200px;
+    position: relative;
+}
+#mainBody .login h3{
+    display: block;
+    height: 40px;
+    width: 420px;
+    color: #f1f1f1;
+    font-size: 24px;
+    border-bottom: 3px solid #eeeeee;
+    margin: 10px 0;
+}
+#mainBody .login span{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    width: 200px;
+    margin: 5px 0;
+    color: #f1f1f1;
+}
+#mainBody .login .input{
+    display: block;
+    width: 240px;
+    height: 30px;
+    margin-bottom: 14px;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #797979;
+}
+#mainBody .login .username{
+    background: url(../img/icon_user.jpg) 0 no-repeat;
+    background-size: cover;
+}
+#mainBody .login .password{
+    background: url(../img/icon_pwd.jpg) 0 no-repeat;
+    background-size: cover;
+}
+#mainBody .login .in_sub{
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+    display: block;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ff857e;
+    border: none;
+    color: #f1f1f1;
+}
+#mainBody .login .in_check{
+    width: 20px;
+    height: 20px;
+}
+#mainBody .login label{
+    font-size: 14px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #f1f1f1;
+ }
+#mainBody .login .freeRegister {
+    margin-top: 10px;
+ }
+#mainBody .login .freeRegister a{
+    font-size: 12px;
+    color: #afafaf;
+ }
+#mainBody .login .freeRegister a:hover{
+    color: #af5480;
+ }
+#mainBody .login .in_sub:hover{
+     background-color: #6f6f6f;
+     color: #cfcfcf;
+ }
+#mainBody .text{
+    float: left;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 50px;
+}#mainBody .text p{
+     color: #c8c8c8;
+     font-size: 16px;
+    margin-top: 20px;
+}
