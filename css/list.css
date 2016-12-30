@@ -8,7 +8,8 @@
 }
 #mainBody{
     width:100%;
-    overflow: hidden;
+    min-width: 1100px;
+    /*overflow: hidden;*/
     background: #F8F8F8;
 }
 #mainBody .shop_list{
@@ -18,7 +19,7 @@
     border-top: 3px solid #ff857e;
 }
 #mainBody .shop_list .shop_list_inner{
-    width: 1400px;
+    width: 1100px;
     height: 160px;
     margin: 0 auto;
     color: #d8d8d8;
@@ -41,24 +42,24 @@
     margin-top: 40px;
 }
 #mainBody .main_inner{
-    width: 1400px;
+    width: 1100px;
     overflow: hidden;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 50px 0;
 }
 #mainBody .shop_left{
     overflow: hidden;
-    width: 300px;
+    width: 250px;
     float: left;
 }
 .search{
     background-color: #fbfbfb;
     padding: 20px;
-    width: 300px;
+    width: 250px;
 }
 .search h3{
     padding-bottom:15px;
-    width: 260px;
+    width: 224px;
     border-bottom: 1px solid #ffb1a6;
     color: #636363;
     font-size: 24px;
@@ -66,17 +67,18 @@
     font-weight: 100;
 }
 .search .form{
-    width: 300px;
+    width: 250px;
     height: 75px;
     margin-top: 30px;
 }
 .search .searchContent{
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     width: 60%;
     height: 40px;
-    padding: 8px 12px;
+    padding: 8px 4px;
     float: left ;
+    border: 1px solid #ff857e;
     border-radius: 4px 0 0 4px;
     color: #a6a6a6;
 }
@@ -100,7 +102,7 @@
 .itemClass{
     background-color: #fbfbfb;
     padding: 20px;
-    width: 300px;
+    width: 250px;
     margin-top: 50px;
 }
 .itemClass h3{
@@ -125,7 +127,7 @@
 }
 #mainBody .shop_right{
     overflow: hidden;
-    width: 1050px;
+    width: 840px;
     /*height: 600px;*/
     float: right;
 }
@@ -138,21 +140,22 @@
     color: #4f4f4f;;
 }
 #mainBody .shop_right .item{
-    width: 320px;
-    height: 480px;
+    width: 260px;
+    height: 400px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #fff;
     position: relative;
     float: left;
-    margin: 40px 15px;
+    margin: 20px 10px;
     box-shadow: #a7a7a7 3px 3px;
 }
 #mainBody .shop_right .item a{
     display: block;
-    width: 320px;
-    height: 300px;
+    width: 260px;
+    height: 240px;
     overflow: hidden;
+    border-radius: 10px;
 }
 #mainBody .shop_right .item img{
     width: 320px;
@@ -163,11 +166,11 @@
     transition-duration: 2s;
 }
 #mainBody .shop_right .item h4{
-    margin: 20px;
+    margin: 15px;
     display: block;
     height: 60px;
-    width: 280px;
-    font-size: 20px;
+    width: 230px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 400;
 }

@@ -8,6 +8,7 @@
 }
 #mainBody{
     width:100%;
+    min-width: 1100px;
     overflow: hidden;
     background: #e7e7e7;
 }
@@ -18,7 +19,7 @@
     border-top: 3px solid #ff857e;
 }
 #mainBody .shop_list .shop_list_inner{
-    width: 1260px;
+    width: 1100px;
     height: 160px;
     margin: 0 auto;
     color: #d8d8d8;
@@ -41,12 +42,12 @@
     margin-top: 40px;
 }
 #mainBody .main_inner{
-    width: 1260px;
+    width: 1100px;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 50px 0;
 }
 #mainBody .main_inner .cart-info{
-    width: 1160px;
+    width: 1060px;
     overflow: hidden;
     margin: 30px auto;
     padding: 50px 20px;
@@ -59,7 +60,7 @@
     padding: 10px 20px;
     font-size: 16px;
     background: #FF8184;
-    margin-left: 100px;
+    margin-left: 50px;
     border: none;
     color: #fff;
     border-radius: 5px;
@@ -80,27 +81,27 @@
     text-align: center;
     display: none;
     float: right;
-    margin-right: 185px;
+    margin-right: 155px;
     color: #4f4f4f;
  }
 #mainBody .main_inner .cartNav{
-    width: 1160px;
+    width: 1100px;
     margin: 0 auto;
     overflow: hidden;
     display: none;
     margin-bottom: 10px;
-    border-bottom:1px solid #111111;
+    border-bottom:1px solid #ff857e;
  }
 #mainBody .main_inner .cartItem{
-    width: 1160px;
+    width: 1100px;
     margin: 0 auto;
     overflow: hidden;
     display: none;
     margin-bottom: 10px;
-    border-bottom:1px solid #111111;
+    border-bottom:1px solid #ff857e;
  }
 #mainBody .main_inner .cartList{
-    width: 1160px;
+    width: 1100px;
     margin: 0 auto;
     overflow: hidden;
     margin-bottom: 10px;
@@ -121,12 +122,12 @@
    width: 40%;
  }
 #mainBody .main_inner .cartNav_num,#mainBody .main_inner .cartNav_price{
-   width: 25.5%;
+   width: 25%;
  }
 #mainBody .main_inner .cartList_name{
    width: 40%;
  }
 #mainBody .main_inner .cartList_num,#mainBody .main_inner .cartList_price{
-   width: 26%;
+   width: 25%;
  }
 

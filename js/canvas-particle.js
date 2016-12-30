@@ -54,7 +54,7 @@ var CanvasParticle = (function(){
 		qq.onmousemove = function(e){
 			var event = e || window.event;
 			canvas.mouse = {
-				x: event.clientX-document.getElementById("body_particle").clientWidth/5,
+				x: event.clientX-document.getElementById("body_particle").clientWidth/(7/3),
 				y: event.clientY-70
 			}
 		};
